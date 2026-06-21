@@ -220,7 +220,7 @@ mirrors how I'd structure analysis code on a team.
 ## Repository structure
 
 ```
-trams-vibration/
+Trams_vibration_project/
 ├── Trams_trains_vibration.ipynb   # the analysis notebook (entry point)
 ├── assets/                        # curated figures used in this README
 ├── Data_raw/
