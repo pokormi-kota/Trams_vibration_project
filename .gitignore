@@ -1,0 +1,31 @@
+# --- Large raw measurement data (over GitHub's file-size limit) ---------------
+# The 2023 raw signal CSVs are 100-140 MB each. The small 2020 octave-band
+# sample data IS committed so the pipeline can be inspected.
+Data_raw/2023/
+*.EDT
+
+# --- Generated outputs --------------------------------------------------------
+# Figures and Excel reports are reproducible by running the notebook.
+# A curated subset lives in assets/ and is committed for the README.
+Output/
+
+# --- Python -------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- OS / editor --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

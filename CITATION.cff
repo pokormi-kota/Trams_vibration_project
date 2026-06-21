@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this analysis or its results, please cite the publication below."
+title: "Tram-Induced Ground Vibration — Measurement & Analysis"
+abstract: >-
+  Reproducible signal-processing pipeline for assessing ground-borne vibration
+  from tram traffic. Reads tri-axial accelerometer recordings, computes
+  octave-band acceleration levels, automatically detects individual tram
+  passages, derives per-event statistics, and compares the same track sections
+  before and after reconstruction.
+type: software
+authors:
+  - family-names: Chechulina
+    given-names: Liubov M.
+    email: chechulyu@gmail.com
+    alias: pokormi-kota
+    affiliation: >-
+      Research Institute of Building Physics (NIISF RAASN);
+      Moscow State University of Civil Engineering (MGSU)
+license: MIT
+repository-code: "https://github.com/pokormi-kota/trams-vibration"
+keywords:
+  - vibration
+  - tram tracks
+  - signal processing
+  - octave-band analysis
+  - structural noise
+  - building physics
+preferred-citation:
+  type: article
+  title: "Tramway Condition Impact on the Vibration Effect"
+  authors:
+    - family-names: Smirnov
+      given-names: Vladimir A.
+      affiliation: "Moscow State University of Civil Engineering (MGSU)"
+    - family-names: Chechulina
+      given-names: Liubov M.
+      affiliation: "NIISF RAASN; Moscow State University of Civil Engineering (MGSU)"
+  journal: "Academia. Architecture and Construction"
+  year: 2023
+  issue: 4
+  start: 159
+  end: 165
+  doi: "10.22337/2077-9038-2023-4-159-165"

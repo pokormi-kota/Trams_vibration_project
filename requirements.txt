@@ -1,0 +1,18 @@
+# Core scientific stack for the tram-vibration analysis notebook.
+# Python 3.12.  Install with:  pip install -r requirements.txt
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+adjustText>=0.8        # non-overlapping peak labels on the detection plots
+XlsxWriter>=3.1        # formatted Excel report export
+openpyxl>=3.1          # reading/writing .xlsx results
+
+# Notebook environment
+jupyterlab>=4.0
+ipykernel>=6.0
+
+# Author's own vibration-analysis engine (read_signal / calc / pic / report).
+# Kept in a separate repository; install it directly from GitHub:
+#   pip install "git+https://github.com/pokormi-kota/vibe.git"
+# tkinter is used for the file-picker dialogs and ships with CPython (no pip install).
